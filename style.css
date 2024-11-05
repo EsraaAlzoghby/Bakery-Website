@@ -1,0 +1,502 @@
+body{
+    margin: 0px ;
+    font-family: "Alegreya", serif;
+}
+
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-position: center;
+    min-height: 110vh;
+    background-size: cover;
+}
+
+/* .cont{
+    padding: 25px;
+    
+} */
+.logo{
+    width: 25%;
+    /* background-color: brown; */
+    display:inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    vertical-align: middle;
+
+}
+.logo img{
+    width: 50%;
+}
+
+.navlink {
+    /* background-color: aqua; */
+    width: 45%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 350px;
+    vertical-align: middle;  
+}
+
+.navlink ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+}
+.navlink ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    transition: .6s;
+}
+.navlink ul li a:hover{
+    color: #8E7754;
+
+}
+.welcom{
+    /* background-color: aquamarine; */
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 55%;
+    color: white;
+    height: 50%;
+}
+.welcom h6{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.welcom h1{
+margin-top: -30px;
+font-size: 60px;
+font-weight: 400px;
+margin-bottom: 40px;
+}
+.welcom p{
+    font-size: 20px;
+}
+.buton{
+    padding-top: 30px;
+}
+
+.buton a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 14px 19px;
+}
+.buton1{
+border: 1px solid transparent;
+background-color: #8e7754;
+padding: 10px;
+text-transform:capitalize;
+transition: .6s;
+}
+.buton2{
+margin-left: 12px;
+border: 1px solid white;
+background-color: transparent;
+padding: 10px;
+text-transform:capitalize;
+transition: .6s;
+}
+.buton1:hover{
+    background-color: white;
+    color: black;
+}
+.buton2:hover{
+    background-color:white;
+    color: black;   
+}
+/* section2 */
+.sections{
+    /* background-color: #8e7754; */
+    margin-top: 100px;
+}
+.continer{
+    /* background-color: aqua; */
+    margin: auto;
+    width: 90%;
+    
+}
+.img1{
+    width: 45%;
+    display: inline-block;
+}
+.img1 img{
+width: 100%;
+}
+.text{
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+    margin-left: 70px;
+    /* background-color: bisque; */
+}
+.text h6{
+color: #303030;
+font-size: 34px;
+margin-top: 50px;
+margin-bottom: 0px;
+}
+
+.text p{
+    color: #686868;
+   margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+.icon{
+    margin-top: 40px;
+
+}
+/* .icon ul{
+    list-style: none;
+    
+}
+.icon ul li span{
+    line-height: 300x;
+    margin-left: 20px;
+} */
+
+.icon p img{
+    width: 8%;
+    vertical-align: middle;
+    /* background-color: #8E7754; */
+    border-radius: 50%;
+   border: solid 1px #686868;
+    margin-right: 10px;
+}
+/* oursection */
+.section2{
+    background-color: #f8f8f8;
+    /* background-color:  aqua; */
+    margin-top: 100px;
+    
+}
+.ourlication{
+/* background-color: #8e7754; */
+width: 46%;
+display: inline-block;
+vertical-align: top;
+margin-top: 100px;
+}
+
+.ourlication h6{
+    color: #303030;
+font-size: 34px;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+
+.ourlication p{
+    /* margin-top: 30px; */
+    font-size: 17px;
+    color: #686868;
+    /* margin-bottom: 0px; */
+}
+.imglocation {
+width: 45%;
+display: inline-block;
+margin-left: 60px;
+}
+.imglocation img{
+    width: 100%;
+}
+/* backing */
+.backing{
+    /* background-color: #8f8f; */
+    margin-top: 100px;
+}
+.backtext{
+    text-align: center;
+    margin: auto;
+    /* background-color: #303030; */
+    margin-bottom: 60px;
+
+}
+.backtext h5{
+   
+    color: #303030;
+    font-size: 34px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.backtext p{
+    font-size: 18px;
+    color: #888;
+    margin-top: 25px;
+}
+.backimg{
+    /* background-color: #8e7754; */
+}
+.backimg1{
+width: 33.333%;
+float: left;
+text-align: center;
+line-height: 1.86em;
+}
+.backimg1 img,.backimg2 img,.backimg3 img{
+    width: 90%;
+ 
+}
+.backimg2{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    line-height: 1.86em;
+}
+.backimg3{
+    width: 33.333%;
+    float: right;
+    text-align: center;
+    line-height: 1.86em;
+}
+.backimg p,
+.backimg p,
+.backimg p{
+ color: #686868;
+    
+}
+
+.backimg h4{
+    font-size: 20px;
+    color: #303030;
+    line-height: 1.23em;
+    font-weight: lighter;
+    
+}
+.cle{
+    clear: both;
+}
+
+/* contmap */
+.contlocation{
+    /* background-color: tomato; */
+    margin-top: 100px;
+    background-color: #f8f8f8;
+}
+.conttext{
+    width: 50%;
+float: left;
+padding-top: 60px;
+
+}
+.continer{
+    /* background-color: aqua; */
+}
+.contmape{
+    width: 50%;
+    float: right;
+}
+iframe{
+    width: 500px;
+    height: 600px;
+}
+.conttext h5{
+    color: #303030;
+    font-size: 34px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+.conttext p{
+    font-size: 17px;
+    color: #888;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+p.htwo{
+    font-size: 18px;
+    color: #888;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.conttext p img{
+    width: 6%;
+    vertical-align: middle;
+    background-color: #8E7754;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.deta{
+    font-weight: 400;
+    font-size: 18.5px;
+    color: #686868;
+}
+
+.clr{
+    clear: both;
+}
+
+/* about us  */
+.footer{
+    /* background-color: #403d38; */
+    background-color: #403d38;;
+    margin-top: 100px;
+}
+ul{
+    list-style: none;
+}
+.blogs1{
+    float: left;
+    width: 25%;   
+}
+.blogs2{
+    float: left;
+    width: 25%;
+}
+.blogs3{
+    float: left;
+    width: 25%;
+}
+.blogs4{
+    float: left;
+    width: 25%;
+}
+.blogs2 h6,
+.blogs3 h6{
+    text-transform: none;
+    font-size: 18px;
+    opacity: .9;
+    color: #fff;
+    margin-left: 37px;
+    margin-bottom: 25px;
+}
+
+.blogs1 h6,
+.blogs4 h6{
+    text-transform: none;
+    font-size: 18px;
+    opacity: .9;
+    color: #fff;
+    margin-left: 0px;
+    margin-bottom: 25px;
+}
+.blogs3 ul li,
+.blogs2 ul li{
+    color: #969696;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.23em;
+}
+.blogs4 a{
+    color: #969696;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+.blogs4 p img{
+    width: 10%;
+    vertical-align: middle;
+}
+
+.blogs4 {
+    background-image: url(images/contact-details-map.png);
+    opacity: 400%;
+    background-position:  bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.blogs1 p,
+.blogs4 p
+{
+    color: #969696;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.70em;
+}
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: 12px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.cle{
+    clear: both;
+}
+/* lastsection*/
+
+.end{
+    /* background-color: aqua; */
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+.lastsection{
+    background-color: #353330;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.lastimg{
+    width: 90%;
+    margin: auto;
+    /* background-color: yellow; */
+}
+.lastp{
+    color:  #777;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+.lasticon{
+    padding-top: 5px;
+    /* background-color: #f8f8f8; */
+    height: 60px;
+}
+
+.lasticon img {
+    width: 3%;
+    padding: 1px;
+    margin: 3px;
+    
+}
+#final a img {
+    text-decoration: none;
+}
+
+.last1{
+    
+    border-radius: 50%;
+    border: solid 1px transparent;
+    background-color: #484540;
+    margin: auto;
+}
+
+.last2{
+    
+    border-radius: 50%;
+    border: solid 1px transparent;
+    background-color: #484540;
+    margin: auto;
+}
+
+.last3{
+    
+    border-radius: 50%;
+    border: solid 1px transparent;
+    background-color: #484540;
+    margin: auto;
+}
+.last4{
+    
+    border-radius: 50%;
+    border: solid 1px transparent;
+    background-color: #484540;
+    margin: auto;
+    
+}
+#final a {
+    border: none;
+    border-color: transparent;
+}

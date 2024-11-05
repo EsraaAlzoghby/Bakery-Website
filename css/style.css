@@ -1,0 +1,93 @@
+body{
+    margin: 0px ;
+    font-family: "Alegreya", serif;
+    
+}
+
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* .cont{
+    padding: 25px;
+    
+} */
+.logo{
+    width: 25%;
+    /* background-color: brown; */
+    display:inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    vertical-align: middle;
+
+
+}
+.logo img{
+    width: 50%;
+}
+
+.navlink {
+    /* background-color: aqua; */
+    width: 45%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 350px;
+    vertical-align: middle;  
+}
+
+.navlink ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+}
+.navlink ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+
+
+}
+.welcom{
+    /* background-color: aquamarine; */
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 50%;
+    color: white;
+    height: 50%;
+}
+.welcom h4{
+    font-size: 20px;
+}
+.welcom h1{
+    font-size: 40px;
+}
+.welcom p{
+    font-size: 18px;
+}
+.buton{
+    padding-top: 30px;
+}
+.buton a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 14px 19px;
+}
+.buton1{
+border: 1px solid transparent;
+background-color: #8e7754;
+padding: 10px;
+text-transform:capitalize;
+}
+.buton2{
+margin-left: 12px;
+border: 1px solid white;
+background-color: transparent;
+padding: 10px;
+text-transform:capitalize;
+}
